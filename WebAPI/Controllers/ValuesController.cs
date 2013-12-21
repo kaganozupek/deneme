@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
         public HttpResponseMessage Get()
         {
             var RegisteredUsers = new List<Person>();
-            RegisteredUsers.Add(new Person() { ID = 1, FirstName = "Bryon Hetrick", LastName = "asd" });
+            RegisteredUsers.Add(new Person() { ID = 1, FirstName = "Bryon hgashjasdasd", LastName = "asd" });
             RegisteredUsers.Add(new Person() { ID = 2, FirstName = "Nicole Wilcox", LastName = "asd" });
             RegisteredUsers.Add(new Person() { ID = 3, FirstName = "Adrian Martinson", LastName = "asd" });
             RegisteredUsers.Add(new Person() { ID = 4, FirstName = "Nora Osborn", LastName = "asd" });
